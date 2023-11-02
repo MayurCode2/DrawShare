@@ -8,7 +8,8 @@ import styles from './index.module.css'
 
 import { COLORS, MENU_ITEMS } from '@/constants'
 import {changeColor, changeBrushSize } from '@/slice/toolboxSlice'
-import { socket } from "@/socket";
+import { socket } from '@/socket'
+
 
 const Toolbox = () => {
     const dispatch = useDispatch()
