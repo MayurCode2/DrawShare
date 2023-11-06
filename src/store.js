@@ -7,5 +7,6 @@ export const store = configureStore({
         menu: MenuReducer,
         toolbox: ToolboxReducer
         
+        
     }
 });
