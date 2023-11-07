@@ -33,7 +33,7 @@ const Board = () => {
             const imageData = drawHistory.current[historyPointer.current]
             context.putImageData(imageData, 0, 0)
         }
-     
+        dispatch(actionItemClick(null))
     }, [actionMenuItem, dispatch])
 
     useEffect(() => {
